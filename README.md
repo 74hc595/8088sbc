@@ -8,6 +8,7 @@ simple project and doesn't strive for PC/DOS compatibility.
 
 ## Specs
 - 8088 or compatible CPU in minimal mode (5 MHz with [8088](https://www.jameco.com/z/8088-Major-Brands-IC-8088-8-Bit-HMOS-MPU_52142.html), 8 MHz with 8088-2)
+    - Clock oscillator at 3x frequency of CPU clock frequency. For 8 MHz operation, uses a [24 MHz half-can crystal oscillator](https://www.mouser.com/ProductDetail/ECS/ECS-2200B-240?qs=GxOUx7aO6nwQDraMtk%2FyHw%3D%3D)
 - 1 MB static RAM (2x [AS6C4008-55PCN](https://www.mouser.com/ProductDetail/Alliance-Memory/AS6C4008-55PCN?qs=%2Fha2pyFaduhSIt5XfNvHc%2FWglHK486gNG4HA%2F19hDPofxZgoFVNuaw%3D%3D))
 - 32 KB ROM (1x [AT28C256-15](https://www.jameco.com/z/28C256-15-Major-Brands-IC-28C256-16-EEPROM-256K-Bit-CMOS-Parallel_74843.html))
 - FTDI-compatible 5V serial port provided by a [16C550](https://www.jameco.com/shop/ProductDisplay?catalogId=10001&langId=-1&storeId=10001&productId=288809) UART (up to 115200 baud)
