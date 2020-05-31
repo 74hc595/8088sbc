@@ -4,6 +4,8 @@ A minimal single-board computer based on the Intel 8088 processor.
 That's the same processor used in the original IBM PC, but this is just a
 simple project and doesn't strive for PC/DOS compatibility.
 
+![](https://pbs.twimg.com/media/EYRXZCHUYAA31Lq?format=jpg&name=large)
+
 ## Specs
 - 8088 or compatible CPU in minimal mode
 - 1 MB static RAM
