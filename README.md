@@ -7,10 +7,10 @@ simple project and doesn't strive for PC/DOS compatibility.
 ![](https://pbs.twimg.com/media/EYRXZCHUYAA31Lq?format=jpg&name=large)
 
 ## Specs
-- 8088 or compatible CPU in minimal mode
-- 1 MB static RAM
-- 32 KB ROM
-- FTDI-compatible 5V serial port (up to 115200 baud)
+- 8088 or compatible CPU in minimal mode (5 MHz with [8088](https://www.jameco.com/z/8088-Major-Brands-IC-8088-8-Bit-HMOS-MPU_52142.html), 8 MHz with 8088-2)
+- 1 MB static RAM (2x [AS6C4008-55PCN](https://www.mouser.com/ProductDetail/Alliance-Memory/AS6C4008-55PCN?qs=%2Fha2pyFaduhSIt5XfNvHc%2FWglHK486gNG4HA%2F19hDPofxZgoFVNuaw%3D%3D))
+- 32 KB ROM (1x [AT28C256-15](https://www.jameco.com/z/28C256-15-Major-Brands-IC-28C256-16-EEPROM-256K-Bit-CMOS-Parallel_74843.html))
+- FTDI-compatible 5V serial port provided by a [16C550](https://www.jameco.com/shop/ProductDisplay?catalogId=10001&langId=-1&storeId=10001&productId=288809) UART (up to 115200 baud)
 - 32 column by 4 row LED display (sixteen PDSP-1881 intelligent displays,
   display board schematic available [here](https://github.com/74hc595/kicad-intelligent-displays))
 - Uses five common 74HC chips for glue logic (74HC4017, 74HC132, 74HC573,
